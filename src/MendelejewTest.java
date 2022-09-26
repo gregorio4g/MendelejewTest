@@ -3,23 +3,23 @@ import java.util.Scanner;
 
 public class MendelejewTest {
     private static final String[][] PT = {
-            {"wodór", "H"}, {"hel", "He"},
+            {"wodor", "H"}, {"hel", "He"},
 
-            {"lit", "Li"}, {"beryl", "Be"}, {"bor", "B"}, {"węgiel", "C"}, {"azot", "N"},
+            {"lit", "Li"}, {"beryl", "Be"}, {"bor", "B"}, {"wegiel", "C"}, {"azot", "N"},
             {"tlen", "O"}, {"fluor", "F"}, {"neon", "Ne"},
 
-            {"sód", "Na"}, {"magnez", "Mg"}, {"glin", "Al"}, {"krzem", "Si"}, {"fosfor", "P"},
+            {"sod", "Na"}, {"magnez", "Mg"}, {"glin", "Al"}, {"krzem", "Si"}, {"fosfor", "P"},
             {"siarka", "S"}, {"chlor", "Cl"}, {"argon", "Ar"},
 
-            {"potas", "K"}, {"wapń", "Ca"}, {"skand", "Sc"}, {"tytan", "Ti"}, {"wanad", "V"},
-            {"chrom", "Cr"}, {"mangan", "Mn"}, {"żelazo", "Fe"}, {"kobalt", "Co"}, {"nikiel", "Ni"},
-            {"miedź", "Cu"}, {"cynk", "Zn"}, {"gal", "Ga"}, {"german", "Ge"}, {"arsen", "As"},
+            {"potas", "K"}, {"wapn", "Ca"}, {"skand", "Sc"}, {"tytan", "Ti"}, {"wanad", "V"},
+            {"chrom", "Cr"}, {"mangan", "Mn"}, {"zelazo", "Fe"}, {"kobalt", "Co"}, {"nikiel", "Ni"},
+            {"miedz", "Cu"}, {"cynk", "Zn"}, {"gal", "Ga"}, {"german", "Ge"}, {"arsen", "As"},
             {"selen", "Se"}, {"brom", "Br"}, {"krypton", "Kr"},
 
             {"rubid", "Rb"}, {"stront", "Sr"}, {"itr", "Y"}, {"cyrkon", "Zr"}, {"niob", "Nb"},
             {"molibden", "Mo"}, {"technet", "Tc"}, {"ruten", "Ru"}, {"rod", "Rh"}, {"pallad", "Pd"},
             {"srebro", "Ag"}, {"kadm", "Cd"}, {"ind", "In"}, {"cyna", "Sn"}, {"antymon", "Sb"},
-            {"tellur", "Te"}, {"jod", "I"}, {"xenon", "Xe"},
+            {"tellur", "Te"}, {"jod", "I"}, {"ksenon", "Xe"},
     };
 
     static Random rand = new Random();
