@@ -20,11 +20,16 @@ public class MendelejewTest {
             {"molibden", "Mo"}, {"technet", "Tc"}, {"ruten", "Ru"}, {"rod", "Rh"}, {"pallad", "Pd"},
             {"srebro", "Ag"}, {"kadm", "Cd"}, {"ind", "In"}, {"cyna", "Sn"}, {"antymon", "Sb"},
             {"tellur", "Te"}, {"jod", "I"}, {"ksenon", "Xe"},
+
+            {"cez", "Cs"}, {"bar", "Ba"}, {"lantan", "La"},
+            {"cer", "Ce"}, {"prazeodym", "Pr"},{"neodym", "Nd"}, {"promet", "Pm"}, {"samar", "Sm"},
+            {"europ", "Eu"}, {"gadolin", "Gd"},{"terb", "Tb"}, {"dysproz", "Dy"}, {"holm", "Ho"},
+            {"erb", "Er"}, {"tul", "Tm"},{"iterb", "Yb"}, {"lutet", "Lu"}
     };
 
     static Random rand = new Random();
 
-    static final int numQuestions = 20;
+    static final int numQuestions = 5;
 
     public static void main(String[] args) {
         System.out.println(PT.length);
