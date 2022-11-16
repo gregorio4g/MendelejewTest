@@ -1,10 +1,12 @@
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
+import org.jetbrains.annotations.NotNull;
 
 public class MendelejewTest {
 	private static final int numQuestions = 20;
-	private static final String[][] PT = { // PT = Period Table
+
+	private static final  String @NotNull [][] PT = { // PT = Period Table
 			// gr 1
 			{"wodor", "H"}, {"hel", "He"},
 			// gr 2
@@ -46,15 +48,15 @@ public class MendelejewTest {
 			{"roentgen", "Rg"}, {"kopernik", "Cn"}, {"nihon", "Nh"}, {"flerov", "Fl"}, {"moscow", "Mc"},
 			{"liwermor", "Lv"}, {"tenes", "Ts"}, {"oganeson", "Og"}
 	};
-	private static final boolean[] checkArray = new boolean[PT.length];
-	static Random rand = new Random();
+	private static final boolean @NotNull [] checkArray = new boolean[PT.length];
+	static @NotNull Random rand = new Random();
 
 	static {
 //		Arrays.fill(checkArray, false);
 		Arrays.fill(checkArray, 0, PT.length-1, true);
 	}
 
-	public static void main(String[] args) {
+	public static void main(String @NotNull [] args) {
 		Scanner sc = new Scanner(System.in);
 		int points = 0;
 
